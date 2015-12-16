@@ -101,8 +101,8 @@
       <file leaf-file-name="SourceStore.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/store/SourceStore.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="4.5755744" vertical-offset="0" max-vertical-offset="3916">
-              <caret line="172" column="3" selection-start-line="172" selection-start-column="3" selection-end-line="172" selection-end-column="3" />
+            <state vertical-scroll-proportion="0.21281742" vertical-offset="0" max-vertical-offset="3916">
+              <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -569,12 +569,12 @@
       <workItem from="1450166304733" duration="462000" />
       <workItem from="1450166800000" duration="21861000" />
       <workItem from="1450252832997" duration="544000" />
-      <workItem from="1450253664948" duration="8326000" />
+      <workItem from="1450253664948" duration="9739000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36091000" />
+    <option name="totallyTimeSpent" value="37504000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
@@ -921,8 +921,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/store/SourceStore.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="4.5755744" vertical-offset="0" max-vertical-offset="3916">
-          <caret line="172" column="3" selection-start-line="172" selection-start-column="3" selection-end-line="172" selection-end-column="3" />
+        <state vertical-scroll-proportion="0.21281742" vertical-offset="0" max-vertical-offset="3916">
+          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
