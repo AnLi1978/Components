@@ -3,6 +3,7 @@ Ext.define('Components.view.Dashboard',{
     requires: [
         'Components.view.Header',
         'Components.store.Import',
+        'Components.store.TreeExampleStore',
         'Components.view.PanelDestination',
         'Components.view.PanelSource',
         'Ext.panel.Panel',
@@ -54,7 +55,7 @@ Ext.define('Components.view.Dashboard',{
             items: [{
                 region: 'center',
                 xtype: 'grid',
-                title: 'Inner panel center',
+                title: 'Пример загрузки из json файла в grid',
                 store: 'Import',
                 columns: [
                     {text: 'Id', dataIndex: 'id'},
@@ -62,8 +63,9 @@ Ext.define('Components.view.Dashboard',{
                 ]
             },{
                 region: 'west',
-                xtype: 'panel',
-                title: 'Inner panel west',
+                xtype: 'treepanel',
+                title: 'Пример загрузки из json файла в дерево',
+                store: 'TreeExampleStore',
                 width: 150,
                 collapsible: true,
                 split: true

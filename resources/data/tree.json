@@ -1,0 +1,25 @@
+{
+  "success": true,
+  "results": [
+    {
+      "text": "Группа компонентов",
+      "expanded": "true",
+      "results": [
+        {
+          "text": "Панели",
+          "expanded": "false",
+          "results": [
+            {
+              "text": "Компонент#1Panel",
+              "leaf": "true"
+            },
+            {
+              "text": "Компонент#2FormPanel",
+              "leaf": "true"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
