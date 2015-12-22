@@ -66,7 +66,7 @@ Ext.define('Components.view.Dashboard',{
                 xtype: 'treepanel',
                 title: 'Пример загрузки из json файла в дерево',
                 store: 'TreeExampleStore',
-                width: 150,
+                width: 270,
                 collapsible: true,
                 split: true
             }]

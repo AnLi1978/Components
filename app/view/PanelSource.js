@@ -10,6 +10,9 @@ Ext.define('Components.view.PanelSource',{
             ptype: 'treeviewdragdrop',
             enableDrag: true,
             enableDrop: true
-        }
+        },
+        //NB после установки для copy значение true, мы
+        //не перемещаем узел из панели в панель, а копируем его
+        copy: true
     }
 });
