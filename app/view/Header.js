@@ -9,7 +9,7 @@ Ext.define('Components.view.Header',{
     items: [
         {
             xtype: 'label',
-            html: '<div id="tytleHeader"><span style="font-size:18px;">Попытка сделать компоненты с возможностью Drag&Drop</span></div>'
+            html: '<div id="tytleHeader"><span style="font-size:18px;">Прототип визуального редактора компонентов с возможностью Drag&Drop</span></div>'
         },
         {
             xtype: 'tbfill'

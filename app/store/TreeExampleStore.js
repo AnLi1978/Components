@@ -7,7 +7,7 @@ Ext.define('Components.store.TreeExampleStore',{
         url: 'resources/data/tree.json',
         reader: {
             type: 'json',
-            root: 'results'
+            root: 'componentsTree'
         }
     },
     root: {

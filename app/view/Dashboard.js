@@ -66,6 +66,7 @@ Ext.define('Components.view.Dashboard',{
                 xtype: 'treepanel',
                 title: 'Пример загрузки из json файла в дерево',
                 store: 'TreeExampleStore',
+                rootVisible: false,
                 width: 270,
                 collapsible: true,
                 split: true
@@ -78,18 +79,32 @@ Ext.define('Components.view.Dashboard',{
         items: [{
             xtype: 'button',
             text: 'Добавить',
-            itemId: 'buttonAdd'
+            itemId: 'buttonAdd',
+            tooltip: 'Добавить компонент'
+        },{
+            xtype: 'tbseparator'
         },{
             xtype: 'button',
-            text: 'Удалить'
+            text: 'Удалить',
+            tooltip: 'Удалить выбранный компонент'
+        },{
+            xtype: 'tbseparator'
         },{
             xtype: 'button',
-            text: 'Настройки'
+            text: 'Настройки',
+            tooltip: 'Настройки компонентов'
+        },{
+            xtype: 'tbseparator'
+        },{
+            xtype: 'button',
+            text: 'Удалить все',
+            tooltip: 'Очистить дерево элементов'
         }]
     },{
         xtype: 'tabpanel',
         width: 250,
         region: 'east',
+        title: 'Доступные компоненты',
         tabPosition: 'bottom',
         collapsible: true,
         split: true,

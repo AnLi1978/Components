@@ -1,25 +1,78 @@
 {
   "success": true,
-  "results": [
-    {
+  "componentsTree": [{
       "text": "Группа компонентов",
-      "expanded": "true",
-      "results": [
-        {
+      "expanded": true,
+      "componentsTree": [{
           "text": "Панели",
-          "expanded": "false",
-          "results": [
-            {
+          "expanded": false,
+          "componentsTree": [{
               "text": "Компонент#1Panel",
               "leaf": "true"
-            },
-            {
+          },{
               "text": "Компонент#2FormPanel",
               "leaf": "true"
-            }
-          ]
-        }
-      ]
-    }
-  ]
+          },{
+              "text": "Компонент#3TabPanel",
+              "leaf": "true"
+          }]
+      },{
+          "text": "Формы",
+          "expanded": false,
+          "componentsTree": [{
+              "text": "Компонент#4FieldSet",
+              "leaf": "true"
+          },{
+              "text": "Компонент#5ComboBox",
+              "leaf": "true"
+          },{
+              "text": "Компонент#6TextField",
+              "leaf": "true"
+          },{
+              "text": "Компонент#7NumberField",
+              "leaf": "true"
+          },{
+              "text": "Компонент#8TimeField",
+              "leaf": "true"
+          },{
+              "text": "Компонент#9DateField",
+              "leaf": "true"
+          },{
+              "text": "Компонент#10CheckBox",
+              "leaf": "true"
+          },{
+              "text": "Компонент#11RadioBox",
+              "leaf": "true"
+          },{
+              "text": "Компонент#12FormPanel",
+              "leaf": "true"
+          }]
+      },{
+          "text": "Другие",
+          "expandedTree": false,
+          "componentsTree": [{
+              "text": "Компонент#13Div",
+              "leaf": "true"
+          },{
+              "text": "Компонент#14Iframe",
+              "leaf": "true"
+          },{
+              "text": "Компонент#15Image",
+              "leaf": "true"
+          },{
+              "text": "Компонент#16Gallery",
+              "leaf": "true"
+          },{
+              "text": "Компонент#17Link",
+              "leaf": "true"
+          },{
+              "text": "Компонент#18List",
+              "leaf": "true"
+          },{
+              "text": "Компонент#19Table",
+              "leaf": "true"
+          }]
+      }]
+  }]
 }
+

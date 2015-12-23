@@ -1,15 +1,15 @@
 Ext.define('Components.view.PanelSource',{
     extend: 'Ext.tree.Panel',
     alias: 'widget.panelsource',
-    requires: 'Components.store.SourceStore',
+    requires: 'Components.store.TreeExampleStore',
     title: 'Компоненты',
-    rootVisible: true,
-    store: 'SourceStore',
+    rootVisible: false,
+    store: 'TreeExampleStore',
     viewConfig: {
         plugins: {
             ptype: 'treeviewdragdrop',
             enableDrag: true,
-            enableDrop: true
+            enableDrop: false
         },
         //NB после установки для copy значение true, мы
         //не перемещаем узел из панели в панель, а копируем его
